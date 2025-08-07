@@ -7,6 +7,7 @@ import FlavourSec from './section/FlavourSec';
 import { useGSAP } from '@gsap/react';
 import NutritionSec from './section/NutritionSec';
 import BenefitSec from './section/BenefitSec';
+import TestimonialSec from './section/TestimonialSec';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -29,6 +30,7 @@ const App = () => {
           <FlavourSec />
           <NutritionSec />
           <BenefitSec />
+          <TestimonialSec />
           <div className='h-dvh'></div>
         </div>
       </div>

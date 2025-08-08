@@ -60,9 +60,18 @@ const FooterSec = () => {
             </div>
           </div>
         </div>
+
+        <div className="copyright-box">
+          <p>Copyright © 2025 SPYLT - All Rights Reserved</p>
+          <div className="flex items-center gap-7">
+            <p>Privacy Policy</p>
+            <p>Terms and conditions</p>
+          </div>
+        </div>
       </div>
     </section>
   );
 };
 
 export default FooterSec;
+ 

@@ -109,6 +109,8 @@ const HeroSection = () => {
           <div className="hero-button">
             <p>Chug a SPYLT</p>
           </div>
+
+          <div className="mt-10 font-paragraph">Made by <a className="underline" href="https://github.com/JayTandia">Jay Tandia</a> with ❤️</div>
         </div>
       </div>
     </section>
